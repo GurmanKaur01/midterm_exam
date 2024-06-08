@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gurman Kaur</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/factorial.js"></script>
+    <style>
+    .result-screen {
+      background-color: #332703;
+      color: #fff;
+      padding: 10px;
+      height: 10rem;
+      width: 40rem;
+      overflow: auto;
+    }
+    .right {
+         float: right;
+         background: blue;
+         }
+    
+    footer {
+  text-align: center;
+  padding: 3px;
+  background-color: grey;
+  color: white;
+}
+  </style>
+  </head>
+  <body>
+     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/darkmodetoggle.js"></script>
+  <script src="./js/script.js"></script>
+
+    <header style="background-color:grey;" class="mb-5">
+      <div class="container mt-5">
+        <div class="d-flex justify-content-end">
+          <div class="btn-group">
+            <button class="btn btn-secondary btn-sm"   data-bs-theme-value="dark">
+              Dark
+            </button>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-light btn-sm" style="background-color:rgb(200, 192, 192);" data-bs-theme-value="light">
+              Light
+            </button>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-light btn-sm"  data-bs-theme-value="dark">
+              Contact Me
+            </button>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-lg-start">
+          <div class="btn-group">
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">
+            <button class="btn btn-light btn-sm" style="background-color:grey;" data-bs-theme-value="dark">
+              <h style="color:red;"> HTML 5</h>
+            </button>
+            </a>
+          </div>
+          <div class="btn-group">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript
+            " target="_blank">
+            <button class="btn btn-light btn-sm" style="background-color:grey;">
+              <h style="color:red;">JavaScript</h>
+            </button>
+            </a>
+          </div>
+          <div class="btn-group">
+            <a href="https://getbootstrap.com/docs/5.3/gettingstarted/introduction" target="_blank">
+            <button class="btn btn-light btn-sm" style="background-color:grey;" data-bs-theme-value="light">
+              <h style="color:red;">Bootstrap</h>
+            </button>
+            </a>
+          </div>
+        </div>
+</header>
+
+<main class="container mt-xl-auto">
+  <div class="row">
+    <div class="col-5 align-content-right" style="color:blue;">
+      <h><pre>
+        Factorial calculator
+        n!- 1x2x3..xn
+        eg:5! =125
+      </pre></h>
+    </div>
+    <div class="col-6">
+      <input type="number" id="numberInput" class="form-control form-control-lg" style="height:10rem;"   placeholder="Enter a number" style="font-size: 2rem;"/>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-5">
+      <button class="btn btn-primary right"  onclick="enter()">Enter</button>
+    </div>
+    <div class="col-6">
+      <div class="result-screen"   id="output" > 
+        <script>
+          function enter() {
+            let input = document.getElementById("numberInput").value;
+            let answer = factorial(input);
+            
+            document.getElementById(
+              "output"
+        
+          ).textContent = "Factorial of "+input+" is "+answer;
+        }
+      </script>
+      </div>
+    </div>
+  </div>
+  
+</main>
+
+<footer>
+   Simple factorial calculator @ 2024 </footer>
+    
+
+
+    
+        <!---->
+        
+        
+        
+        
+        
+    
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/darkmodetoggle.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

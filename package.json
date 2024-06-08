@@ -1,0 +1,19 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "midterm exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GurmanKaur01/midterm_exam.git"
+  },
+  "author": "gurmankaur01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GurmanKaur01/midterm_exam/issues"
+  },
+  "homepage": "https://github.com/GurmanKaur01/midterm_exam#readme"
+}

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GurmanKaur01/midterm_exam/issues"
   },
-  "homepage": "https://github.com/GurmanKaur01/midterm_exam#readme"
+  "homepage": "https://github.com/GurmanKaur01/midterm_exam#readme",
+  "dependencies": {
+    "sass": "^1.77.4"
+  }
 }
